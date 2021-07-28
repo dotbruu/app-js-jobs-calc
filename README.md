@@ -18,7 +18,7 @@
 
 ## 💻 About
 
-JobsCalc is a calculation estimation application for freelance projects, where it is possible to register and exclude jobs (projects), obtaining a cost estimate for each job. In addition, it is possible to plot the time value of the person who will be using the system 💰
+JobsCalc is a calculation estimation application for freelance projects, where it is possible to register and exclude jobs (projects), obtaining a cost estimate for each job. In addition, it is possible to plot the time value of the person who will be using the system. 💰
 
 <a id="about"></a>
 
