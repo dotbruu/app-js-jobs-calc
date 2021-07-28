@@ -1,0 +1,19 @@
+form .error-message {
+  padding: 0.5rem;
+  color: var(--color-secondary);
+  background-color: var(--color-msg-error-background);
+  border-radius: 5px;
+  text-align: center;
+  font-size: 1.1rem;
+  font-weight: 500;
+  display: none;
+}
+
+form .show-error-message .error-message {
+  display: block;
+}
+
+form .show-error-message input[type] {
+  border-color: var(--color-msg-error-border);
+  border-width: 2px;
+}

@@ -1,0 +1,95 @@
+#page-profile .page-header ~ .container {
+  display: flex;
+}
+
+aside.card {
+  background: var(--color-card-background);
+  color: var(--color-card-title);
+
+  border: 1px solid #e1e3e6;
+  border-radius: 0.313rem;
+
+  width: 22rem;
+
+  margin-right: 8rem;
+
+  text-align: center;
+
+  padding: 3.875rem 4.625rem;
+}
+
+aside img {
+  border-radius: 50%;
+
+  border: 0.25rem var(--color-secondary) solid;
+
+  width: 11.25rem;
+  height: 11.25rem;
+
+  margin-bottom: 1.5rem;
+}
+
+aside h2 {
+  font-family: IBM Plex Sans;
+  font-weight: 600;
+  font-size: 1.75rem;
+  line-height: 1.875rem;
+
+  margin-bottom: 3.875rem;
+}
+
+aside p {
+  margin-bottom: 1.75rem;
+
+  font-family: Inter;
+  font-weight: 400;
+  font-size: 1.25rem;
+  line-height: 1.875rem;
+}
+
+main {
+  flex: 1;
+}
+
+#dark-mode-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#dark-mode-button p {
+  color: var(--color-card-title);
+  display: inline-block;
+  margin-right: 1.5rem;
+}
+
+#dark-mode-button label {
+  display: inline-block;
+  width: 4rem;
+  height: 1.7rem;
+  background-color: #fff;
+  border-radius: 0.5rem;
+  border: 1px solid #e1e3e5;
+  padding-top: 1rem;
+  position: relative;
+  top: 0.5rem;
+}
+
+#dark-mode-button label::before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  transform: translateY(-50%);
+  width: 1.2rem;
+  height: 1.2rem;
+  border-radius: 50%;
+  background-color: var(--color-card-label);
+  transition: all 0.3s ease-out;
+}
+
+#switch:checked + label::before {
+  left: 60%;
+  background: var(--color-card-label);
+}

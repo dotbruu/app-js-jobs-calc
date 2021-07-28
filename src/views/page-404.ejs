@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#41414C" />
+    <link rel="shortcut icon" href="images/favicon.png" type="image/png" />
+
+    <link rel="stylesheet" href="/styles/main.css" />
+    <link rel="stylesheet" href="/styles/partials/page-header.css" />
+    <link rel="stylesheet" href="/styles/partials/buttons.css" />
+    <link rel="stylesheet" href="/styles/pages/page-404.css" />
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>404 - Ocorreu um erro</title>
+  </head>
+  <body>
+    <%- include("parts/page-header", {title: 'Erro não encontrado'}) %>
+    <main>
+      <div class="content">
+        <div class="content__text-404">
+          <h1><strong class="text-404">404</strong></h1>
+        </div>
+
+        <div class="content__paragraph">
+          <p>Ocorreu um erro inesperado</p>
+        </div>
+
+        <div class="content__button">
+          <a href="/" class="button white">Voltar para Home</a>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>

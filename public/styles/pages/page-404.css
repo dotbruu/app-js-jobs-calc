@@ -1,0 +1,26 @@
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.content__text-404 {
+  padding: 10rem 0 1rem 0;
+}
+
+.content__text-404 .text-404 {
+  font-size: 9rem;
+  color: #f1972c;
+}
+
+.content__paragraph p {
+  text-align: center;
+  font-size: 1.2rem;
+  color: var(--color-hairline-in-dark);
+  margin-bottom: 2rem;
+}
+
+.content .button {
+  color: #bf7922;
+}
