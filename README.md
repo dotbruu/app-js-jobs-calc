@@ -36,13 +36,13 @@ You can view the project layout through [link](https://www.figma.com/file/s4fytP
 
 ## Features
 
-✅ Register Job
-✅ Edit Job
-✅ Delete Job
-✅ See all projects actives
-✅ See all projects in progress
-✅ See all projects concluded
-✅ Dark Theme
+✅ Register Job <br>
+✅ Edit Job <br>
+✅ Delete Job <br>
+✅ See all projects actives <br>
+✅ See all projects in progress <br>
+✅ See all projects concluded <br>
+✅ Dark Theme <br>
 
 <a id="features"></a>
 
@@ -50,13 +50,13 @@ You can view the project layout through [link](https://www.figma.com/file/s4fytP
 
 Technologies useds:
 
-➡️ HTML
-➡️ CSS
-➡️ JavaScript
-➡️ NodeJS
-➡️ EJS
-➡️ Express
-➡️ SQLite
+➡️ HTML <br>
+➡️ CSS <br>
+➡️ JavaScript <br>
+➡️ NodeJS <br>
+➡️ EJS <br>
+➡️ Express <br>
+➡️ SQLite <br>
 
 <a id="technologies"></a>
 
