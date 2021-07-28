@@ -36,7 +36,7 @@ You can view the project layout through [link](https://www.figma.com/file/s4fytP
 
 ## Features
 
-✅  Register Job <br>
+<p>✅  Register Job<p/> <br>
 ✅  Edit Job <br>
 ✅  Delete Job <br>
 ✅  See all projects actives <br>
