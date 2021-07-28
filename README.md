@@ -36,10 +36,10 @@ You can view the project layout through [link](https://www.figma.com/file/s4fytP
 
 ## Features
 
-✅ Register Job <br>
-✅ Edit Job <br>
-✅ Delete Job <br>
-✅ See all projects actives <br>
+✅  Register Job <br>
+✅  Edit Job <br>
+✅  Delete Job <br>
+✅  See all projects actives <br>
 ✅ See all projects in progress <br>
 ✅ See all projects concluded <br>
 ✅ Dark Theme <br>
